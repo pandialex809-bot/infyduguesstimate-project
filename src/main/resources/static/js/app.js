@@ -88,7 +88,6 @@ async function loadRecords(){
     $('recordsBody').innerHTML =
       `<tr><td colspan="6">No records found</td></tr>`;
 
-    // Error toast காட்ட வேண்டாம்
   }
 }
 async function loadDashboard(){
